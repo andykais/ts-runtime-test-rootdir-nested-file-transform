@@ -1,0 +1,22 @@
+{
+  "name": "ts-runtime-test-rootdir-nested-file-transform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typecheck": "tsc --noEmit --project tsconfig.json",
+    "typecheck:watch": "npm run typecheck -- --watch",
+    "compile:runtime": "tsr --tsConfig tsconfig.json src/types/assert.ts",
+    "test": "node ./bin/cli"
+  },
+  "keywords": [],
+  "author": "Andrew Kaiser",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.12.20",
+    "ts-runtime": "^0.2.0",
+    "typescript": "^3.2.4",
+    "typescript-json-schema": "^0.34.0"
+  },
+  "dependencies": {}
+}
