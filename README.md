@@ -4,5 +4,5 @@ rootDir.
 ## Usage
 ```
 npm install
-npm run compile:runtime && npm run test
+npm run test
 ```
