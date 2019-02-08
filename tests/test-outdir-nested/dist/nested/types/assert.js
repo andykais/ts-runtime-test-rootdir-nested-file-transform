@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-require("../../dist/tsr-declarations");
+require("../../dist/nested/tsr-declarations");
 var lib_1 = require("ts-runtime/lib");
 var _1 = require("./");
 exports.validate = lib_1.default.annotate(function (arg) {

@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "rootDir": "./src",
-    "outDir": "./src/types/runtime"
+    "outDir": "./dist/nested"
   },
   "include": ["src/**/*.ts"]
 }
